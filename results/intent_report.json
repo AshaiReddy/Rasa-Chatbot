@@ -1,0 +1,80 @@
+{
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 43,
+    "confused_with": {}
+  },
+  "thank": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24,
+    "confused_with": {}
+  },
+  "out_of_scope": {
+    "precision": 0.990909090909091,
+    "recall": 1.0,
+    "f1-score": 0.995433789954338,
+    "support": 109,
+    "confused_with": {}
+  },
+  "ask_budget": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "ask_email": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25,
+    "confused_with": {}
+  },
+  "ask_restaurant": {
+    "precision": 1.0,
+    "recall": 0.9922480620155039,
+    "f1-score": 0.9961089494163424,
+    "support": 129,
+    "confused_with": {
+      "out_of_scope": 1
+    }
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 64,
+    "confused_with": {}
+  },
+  "affirm": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 54,
+    "confused_with": {}
+  },
+  "bye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 23,
+    "confused_with": {}
+  },
+  "accuracy": 0.9978902953586498,
+  "macro avg": {
+    "precision": 0.9989898989898991,
+    "recall": 0.9991386735572783,
+    "f1-score": 0.9990603043745199,
+    "support": 474
+  },
+  "weighted avg": {
+    "precision": 0.9979094744917529,
+    "recall": 0.9978902953586498,
+    "f1-score": 0.9978910075521752,
+    "support": 474
+  }
+}
